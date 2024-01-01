@@ -18,6 +18,7 @@ img{
 }
 .container{
   text-align: center;
+  margin-top: 60px;
 
 }
 a{
@@ -27,7 +28,7 @@ a{
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  background-color:  #B2A59B;;
+  background-color:  #D2E3C8;
 }
 .card{
   text-align: center;
@@ -42,12 +43,17 @@ ul{
   margin-top : 10px;
   width: 800px;
   margin-left: 200px;
+  border-radius: 7px;
 
 }
 button{
   color: #424769;
   background-color: white;
   border:1px solid black;
+  width: 200px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
 }
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
@@ -68,4 +74,12 @@ button{
   .container {
     width: 300px;
   }
+}
+li{
+  font-size: larger;
+}
+button:hover{
+  background-color: #424769;
+  color: aliceblue;
+  opacity: 0.2s;
 }
